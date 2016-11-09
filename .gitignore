@@ -1,0 +1,16 @@
+/.bundle
+!/log/.keep
+!/tmp/.keep
+.byebug_history
+.DS_Store
+.idea/
+.nyc_output/
+.sass-cache
+.vscode/
+/log/*
+/node_modules/*
+/tmp/*
+coverage/
+dist
+dump.rdb
+npm-debug.log
