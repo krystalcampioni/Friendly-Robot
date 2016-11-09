@@ -8,13 +8,14 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     imagemin = require('gulp-imagemin'),
     minifyhtml = require('gulp-minify-html');
+    pug = require('gulp-pug');
 
 // Paths to various files
 var paths = {
     scripts: ['js/*'],
     styles: ['scss/main.scss','scss/**/*.scss', 'scss/*.scss'],
     images: ['images/**/*'],
-    content: ['index.html']
+    content: ['views/*.pug']
 }
 
 // Compiles scss files and outputs minified file to docs/css/*.css
@@ -43,8 +44,10 @@ gulp.task('scripts', function() {
 });
 
 // Minifies our HTML files and outputs them to docs/*.html
+
 gulp.task('content', function() {
     return gulp.src(paths.content)
+        .pipe(pug())
         .pipe(minifyhtml({
             empty: true,
             quotes: true
