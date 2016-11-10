@@ -9,6 +9,7 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     minifyhtml = require('gulp-minify-html');
     pug = require('gulp-pug');
+    nodeSassGlobbing = require('node-sass-globbing');
 
 // Paths to various files
 var paths = {
@@ -22,6 +23,7 @@ var paths = {
 gulp.task('styles', function() {
     return gulp.src(paths.styles)
       .pipe(sass({
+          importer: nodeSassGlobbing,
           includePaths: ['styles'].concat(neat)
       }))
       .pipe(gulp.dest('./docs/css'))

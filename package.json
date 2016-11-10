@@ -1,5 +1,5 @@
 {
-  "name": "sp-sushi",
+  "name": "gulp-pug-bourbon-neat-boilerplate",
   "version": "1.0.0",
   "description": "Starter gulp project using Pug, Scss, Bourbon and Neat",
   "main": "gulpfile.js",
@@ -20,7 +20,8 @@
     "gulp-ruby-sass": "^2.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
-    "gulp-webserver": "^0.9.1"
+    "gulp-webserver": "^0.9.1",
+    "node-sass-globbing": "0.0.23"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
