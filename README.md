@@ -20,3 +20,4 @@ The files will be compiled, concatenated, minified, compressed and output to the
  - Pug templates support via [gulp-pug](https://www.npmjs.com/package/gulp-pug)
  - Bourbon support via [node-bourbon](https://www.npmjs.com/package/node-bourbon)
  - Neat support via [node-neat](https://www.npmjs.com/package/node-neat)
+ - Sass globbing support via [node-sass-globbing](https://www.npmjs.com/package/node-sass-globbing)
