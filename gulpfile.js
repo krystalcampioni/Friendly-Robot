@@ -9,7 +9,8 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     minifyhtml = require('gulp-minify-html');
     pug = require('gulp-pug');
-    nodeSassGlobbing = require('node-sass-globbing');
+    nodeSassGlobbing = require('node-sass-globbing'),
+    livereload = require('gulp-livereload');
 
 // Paths to various files
 var paths = {
@@ -31,7 +32,8 @@ gulp.task('styles', function() {
           console.log(details.name + ': ' + details.stats.originalSize);
           console.log(details.name + ': ' + details.stats.minifiedSize);
       }))
-      .pipe(gulp.dest('./docs/css/'));
+      .pipe(gulp.dest('./docs/css/'))
+      .pipe(livereload());
 });
 
 
@@ -42,7 +44,8 @@ gulp.task('scripts', function() {
             .pipe(uglify())
             .pipe(concatify('app.js'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./docs/js/'));
+        .pipe(gulp.dest('./docs/js/'))
+        .pipe(livereload());
 });
 
 // Minifies our HTML files and outputs them to docs/*.html
@@ -55,6 +58,7 @@ gulp.task('content', function() {
             quotes: true
         }))
         .pipe(gulp.dest('./docs'))
+        .pipe(livereload());
 });
 
 // Optimizes our image files and outputs them to docs/image/*
@@ -64,10 +68,12 @@ gulp.task('images', function() {
                     optimizationLevel: 5
                 }))
                 .pipe(gulp.dest('./docs/images'))
+                .pipe(livereload());
 })
 
 // Watches for changes to our files and executes required scripts
 gulp.task('watch', function() {
+    livereload.listen();
     gulp.watch(paths.scripts, ['scripts']);
     gulp.watch(paths.styles, ['styles']);
     gulp.watch(paths.content, ['content']);
