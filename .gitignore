@@ -4,6 +4,7 @@
 .byebug_history
 .DS_Store
 .idea/
+.history/
 .nyc_output/
 .sass-cache
 .vscode/
