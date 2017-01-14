@@ -1,6 +1,6 @@
 {
   "name": "gulp-pug-bourbon-neat-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starter gulp project using Pug, Scss, Bourbon and Neat",
   "main": "gulpfile.js",
   "dependencies": {
