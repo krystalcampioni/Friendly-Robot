@@ -5,7 +5,6 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2",
     "node-bourbon": "^4.2.8",
     "node-neat": "^1.7.2"
   },
@@ -19,6 +18,7 @@
     "gulp-minify-html": "^1.0.6",
     "gulp-pug": "^3.1.0",
     "gulp-ruby-sass": "^2.1.0",
+    "gulp-sass": "3.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^2.0.0",
     "gulp-webserver": "^0.9.1",
