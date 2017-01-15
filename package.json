@@ -29,5 +29,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Krystal Campioni",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "git@github.com:krystalcampioni/gulp-pug-bourbon-neat-boilerplate.git"
 }
