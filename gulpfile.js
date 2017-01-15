@@ -11,6 +11,7 @@ var gulp = require('gulp'),
     pug = require('gulp-pug');
     nodeSassGlobbing = require('node-sass-globbing'),
     livereload = require('gulp-livereload');
+    purify = require('gulp-purifycss');
 
 // Paths to various files
 var paths = {
@@ -27,7 +28,7 @@ gulp.task('styles', function() {
           importer: nodeSassGlobbing,
           includePaths: ['styles'].concat(neat)
       }))
-      .pipe(gulp.dest('./docs/css'))
+      .pipe(purify(['js/**/*.js', 'views/*.pug']))
       .pipe(cleanCSS({debug: true}, function(details) {
           console.log(details.name + ': ' + details.stats.originalSize);
           console.log(details.name + ': ' + details.stats.minifiedSize);
