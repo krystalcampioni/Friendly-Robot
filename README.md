@@ -8,7 +8,7 @@ This is an opinionated starter boilerplate that uses Gulp, Pug ( formerly Jade )
 ## Running the project
 1. `$ git clone git@github.com:krystalcampioni/gulp-pug-bourbon-neat-boilerplate.git`
 2. `$ cd gulp-pug-bourbon-neat-boilerplate`
-3. `$ npm install`
+3. `$ npm install` or `$ yarn` if you use [Yarn](https://yarnpkg.com/) as package manager
 4. `$ gulp`
 
 This will start a local server at [http://localhost:1111/](http://localhost:1111/)
