@@ -19,6 +19,7 @@ The files will be compiled, concatenated, minified, compressed and output to the
  - Live reload via [gulp-webserver](https://www.npmjs.com/package/gulp-webserver)
  - Minified CSS via [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)
  - Sass globbing support via [node-sass-globbing](https://www.npmjs.com/package/node-sass-globbing)
+ - Removes unused CSS classes via [gulp-purifycss](https://github.com/purifycss/gulp-purifycss)
  - Bourbon support via [node-bourbon](https://www.npmjs.com/package/node-bourbon)
  - Neat support via [node-neat](https://www.npmjs.com/package/node-neat)
  - Concat and minified JS via [gulp-concat](https://www.npmjs.com/package/gulp-concat) and [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
