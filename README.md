@@ -2,7 +2,7 @@
 [![dependencies Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/status.svg)](https://david-dm.org/krystalcampioni/gulp-pug-bourbon-neat-boilerplate) [![devDependency Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/dev-status.svg)](https://david-dm.org/krystalcampioni/gulp-pug-bourbon-neat-boilerplate)
 
 
-# Gulp-Pug-Bourbon-Neat-Boilerplate
+# Friendly Robot
 This is an opinionated starter boilerplate that uses Gulp, Pug ( formerly Jade ), Bourbon and Neat
 
 
