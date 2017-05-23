@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
     sass = require('gulp-sass'),
     neat = require('node-neat').includePaths;
     cleanCSS = require('gulp-clean-css');
@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     nodeSassGlobbing = require('node-sass-globbing'),
     livereload = require('gulp-livereload');
     purify = require('gulp-purifycss');
+    babel = require('gulp-babel');
 
 // Paths to various files
 var paths = {
@@ -41,6 +42,9 @@ gulp.task('styles', function() {
 // Concats & minifies js files and outputs them to docs/js/app.js
 gulp.task('scripts', function() {
     return gulp.src(paths.scripts)
+        .pipe(babel({
+           presets: ['es2015']
+        }))
         .pipe(sourcemaps.init())
             .pipe(uglify())
             .pipe(concatify('app.js'))
