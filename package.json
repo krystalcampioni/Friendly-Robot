@@ -28,6 +28,7 @@
     "node-sass-globbing": "0.0.23"
   },
   "scripts": {
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Krystal Campioni",
