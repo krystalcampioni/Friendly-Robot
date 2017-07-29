@@ -1,1 +1,1 @@
-html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}body,html{background-image:-webkit-linear-gradient(#1e5799,#2989d8);margin:0;padding:0;background:#000;color:#fff}
+html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}body,html{background-color:#1e5799;background-image:-webkit-linear-gradient(#1e5799,#2989d8);background-image:linear-gradient(#1e5799,#2989d8);height:100%;width:100%;margin:0;padding:0;color:#fff}

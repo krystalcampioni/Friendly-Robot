@@ -3,8 +3,8 @@
 html,
 body {
   @include linear-gradient(#1e5799, #2989d8);
+  @include size(100%);
   margin: 0;
   padding: 0;
-  background: black;
   color: white;
 }
