@@ -1,5 +1,5 @@
-[![Code Climate](https://codeclimate.com/github/krystalcampioni/gulp-pug-bourbon-neat-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/krystalcampioni/gulp-pug-bourbon-neat-boilerplate)
-[![dependencies Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/status.svg)](https://david-dm.org/krystalcampioni/gulp-pug-bourbon-neat-boilerplate) [![devDependency Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/dev-status.svg)](https://david-dm.org/krystalcampioni/gulp-pug-bourbon-neat-boilerplate)
+[![Code Climate](https://codeclimate.com/github/krystalcampioni/gulp-pug-bourbon-neat-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/krystalcampioni/Friendly-Robot)
+[![dependencies Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/status.svg)](https://david-dm.org/krystalcampioni/Friendly-Robot) [![devDependency Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/dev-status.svg)](https://david-dm.org/krystalcampioni/Friendly-Robot)
 
 
 # Friendly Robot
@@ -7,8 +7,8 @@ This is an opinionated starter boilerplate that uses Gulp, Pug ( formerly Jade )
 
 
 ## Running the project
-1. `$ git clone git@github.com:krystalcampioni/gulp-pug-bourbon-neat-boilerplate.git`
-2. `$ cd gulp-pug-bourbon-neat-boilerplate`
+1. `$ git clone git@github.com:krystalcampioni/Friendly-Robot.git`
+2. `$ cd Friendly-Robot`
 3. `$ npm install` or `$ yarn` if you use [Yarn](https://yarnpkg.com/) as package manager
 4. `$ gulp`
 
