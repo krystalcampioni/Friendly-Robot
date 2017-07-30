@@ -1,5 +1,5 @@
 [![Code Climate](https://codeclimate.com/github/krystalcampioni/gulp-pug-bourbon-neat-boilerplate/badges/gpa.svg)](https://codeclimate.com/github/krystalcampioni/Friendly-Robot)
-[![dependencies Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/status.svg)](https://david-dm.org/krystalcampioni/Friendly-Robot) [![devDependency Status](https://david-dm.org/jakemmarsh/angularjs-gulp-browserify-boilerplate/dev-status.svg)](https://david-dm.org/krystalcampioni/Friendly-Robot)
+[![dependencies Status](https://david-dm.org/krystalcampioni/gulp-pug-bourbon-neat-boilerplate/status.svg)](https://david-dm.org/krystalcampioni/gulp-pug-bourbon-neat-boilerplate) [![devDependencies Status](https://david-dm.org/krystalcampioni/gulp-pug-bourbon-neat-boilerplate/dev-status.svg)](https://david-dm.org/krystalcampioni/gulp-pug-bourbon-neat-boilerplate?type=dev)
 
 
 # Friendly Robot

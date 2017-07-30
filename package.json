@@ -1,6 +1,6 @@
 {
   "name": "Friendly-Robot",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Starter gulp project using Pug, Scss, Bourbon and Neat",
   "main": "gulpfile.js",
   "dependencies": {
